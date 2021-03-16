@@ -110,10 +110,10 @@ for i in range(0,8):
 # save the outputs image to disk
 cv2.imwrite("output.png", outputs)
 ```
-> after run this cell you will be seeing,the two columns,left column has different noisy input image,and in right side you see the output image as denoising of these images as output of autoencoder,such as below :
+> after run this cell you will be seeing,the two columns,left column has different noisy input images,and in right side you see the output images as denoised of these images as output of autoencoder,such as below :
 > 
 ![output](https://user-images.githubusercontent.com/53394692/111321399-21246780-867d-11eb-907b-5c5bf2d79cd0.png)
 
 
 ## License
-> [Autoencoders with Keras, TensorFlow, and Deep Learning](https://www.pyimagesearch.com/2020/02/17/autoencoders-with-keras-tensorflow-and-deep-learning/) by Adrian Rosebrock
+> [Denoising autoencoders with Keras, TensorFlow, and Deep Learning](https://www.pyimagesearch.com/2020/02/24/denoising-autoencoders-with-keras-tensorflow-and-deep-learning/) by Adrian Rosebrock

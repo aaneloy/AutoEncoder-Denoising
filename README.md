@@ -15,7 +15,7 @@ autoencoder for denoising mnist dataset
 ## STRUCTURE of This Project
 > the architecture of autoencdoer is in `pyimagesearch/convautoencoder.py` and for starting the train procedure you can run following command:
 ```
-python train_conv_autoencoder.py
+python train_denoising_autoencoder.py
 ```
 furthermore,you can open the `train_denoising_autoencoder.ipynb` in google colab and run it cell by cell,same as below:
 > set the matplotlib backend so figures can be saved in the background and import the necessary packages

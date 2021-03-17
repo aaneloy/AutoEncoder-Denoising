@@ -10,7 +10,7 @@ autoencoder for denoising mnist dataset
 
 
 ## DATASET  
-> Later in this tutorial, we’ll be training an autoencoder on the MNIST dataset. The MNIST dataset consists of digits that are 28×28 pixels with a single channel, implying that each digit is represented by 28 x 28 = 784 values.Noise was stochastically (i.e., randomly) added to the input data, and then the autoencoder was trained to recover the original, nonperturbed signal.From an image processing standpoint, we can train an autoencoder to perform automatic image pre-processing for us. 
+> we’ll be training an autoencoder on the MNIST dataset. The MNIST dataset consists of digits that are 28×28 pixels with a single channel, implying that each digit is represented by 28 x 28 = 784 values.Noise was stochastically (i.e., randomly) added to the input data, and then the autoencoder was trained to recover the original, nonperturbed signal.From an image processing standpoint, we can train an autoencoder to perform automatic image pre-processing for us. 
 >
 ## STRUCTURE of This Project
 > the architecture of autoencdoer is in `pyimagesearch/convautoencoder.py` and for starting the train procedure you can run following command:
